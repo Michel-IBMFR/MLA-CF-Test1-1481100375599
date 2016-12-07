@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MLA-CF-Test1
+  host: MLA-CF-Test1
+  disk_quota: 1024M
+  services:
+  - MLA-CF-Test1-cloudantNoSQLDB
